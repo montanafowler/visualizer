@@ -582,3 +582,67 @@ Received Import Request.
 Start importing Assets/Materials/New Material.mat using Guid(c50a1f397c2954f9f83b4bfb06de8100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c0791239d0318b69ab462f31a18fc2') in 0.018761 seconds 
   Import took 0.023511 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 944.605414 seconds.
+  path: Assets/Materials/MeshMaterial.mat
+  artifactKey: Guid(8b18bd46aac054853a4f3edf889d6043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/MeshMaterial.mat using Guid(8b18bd46aac054853a4f3edf889d6043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71b60367f66906be8f0b02cdbb75121') in 0.012919 seconds 
+  Import took 0.017085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.797192 seconds.
+  path: Assets/Materials/testUnlitShader.shader
+  artifactKey: Guid(29854733ed4334263978c0aec94415c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/testUnlitShader.shader using Guid(29854733ed4334263978c0aec94415c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f0e39c56ae4a1a180f0882222bd5715') in 1.063006 seconds 
+  Import took 1.070297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 233.016237 seconds.
+  path: Assets/Materials/testURPShader.shadergraph
+  artifactKey: Guid(ed6d5b10a7e424153b821d69ee0c002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/testURPShader.shadergraph using Guid(ed6d5b10a7e424153b821d69ee0c002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd93df668eacf040a3be542ffbac7a33') in 0.179796 seconds 
+  Import took 0.184951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.127001 seconds.
+  path: Assets/Materials/testURPShader.shadergraph
+  artifactKey: Guid(ed6d5b10a7e424153b821d69ee0c002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/testURPShader.shadergraph using Guid(ed6d5b10a7e424153b821d69ee0c002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd93df668eacf040a3be542ffbac7a33') in 0.003023 seconds 
+  Import took 0.007682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.005374 seconds.
+  path: Assets/Materials/MeshMaterial.mat
+  artifactKey: Guid(8b18bd46aac054853a4f3edf889d6043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/MeshMaterial.mat using Guid(8b18bd46aac054853a4f3edf889d6043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70cad4cd1f2ebe7add303967c831fc5a') in 0.038219 seconds 
+  Import took 0.043290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Materials/New Material 1.mat
+  artifactKey: Guid(84f1c211673924ae2a5505d8bbf9e3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material 1.mat using Guid(84f1c211673924ae2a5505d8bbf9e3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be1f36cd0ba739edc986d5b689386766') in 0.011381 seconds 
+  Import took 0.015158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.991171 seconds.
+  path: Assets/Materials/New Material 1.mat
+  artifactKey: Guid(84f1c211673924ae2a5505d8bbf9e3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material 1.mat using Guid(84f1c211673924ae2a5505d8bbf9e3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a598b137ba78bc4b5e7b26f143142054') in 0.019212 seconds 
+  Import took 0.023935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.236696 seconds.
+  path: Assets/Materials/testURPShader.shadergraph
+  artifactKey: Guid(ed6d5b10a7e424153b821d69ee0c002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/testURPShader.shadergraph using Guid(ed6d5b10a7e424153b821d69ee0c002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ac3c6db65a37eba1e4a3f7d750dfad') in 0.003718 seconds 
+  Import took 0.011553 seconds .
+
