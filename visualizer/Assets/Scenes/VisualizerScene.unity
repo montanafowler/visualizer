@@ -943,8 +943,9 @@ GameObject:
   - component: {fileID: 818694796}
   - component: {fileID: 818694795}
   - component: {fileID: 818694794}
+  - component: {fileID: 818694797}
   m_Layer: 5
-  m_Name: Cube
+  m_Name: CubeButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1013,7 +1014,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 818694795}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &818694795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1052,6 +1065,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 818694792}
   m_CullTransparentMesh: 1
+--- !u!114 &818694797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818694792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef54aa5b0f15e49118afb6bdf36bfecf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &836167793
 GameObject:
   m_ObjectHideFlags: 0
@@ -2176,7 +2201,7 @@ GameObject:
   - component: {fileID: 1545894863}
   - component: {fileID: 1545894862}
   m_Layer: 5
-  m_Name: Sphere
+  m_Name: SphereButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2392,6 +2417,7 @@ GameObject:
   - component: {fileID: 1708384055}
   - component: {fileID: 1708384054}
   - component: {fileID: 1708384053}
+  - component: {fileID: 1708384057}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -2431,7 +2457,6 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   - {fileID: 2100000, guid: c50a1f397c2954f9f83b4bfb06de8100, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -2476,6 +2501,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: -12.45, y: -12.907, z: 1.301}
+--- !u!114 &1708384057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1708384052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 330c2a623118147d98fc27d2753f0953, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1728829119
 GameObject:
   m_ObjectHideFlags: 0
@@ -3325,7 +3362,7 @@ GameObject:
   - component: {fileID: 2096735207}
   - component: {fileID: 2096735206}
   m_Layer: 5
-  m_Name: Cone
+  m_Name: ConeButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
