@@ -4,33 +4,22 @@ using UnityEngine;
 
 public class DragObject : MonoBehaviour {
 
-    private Vector3 mOffset;
-    private float mZCoord;
+    private Vector3 distanceToMove;
+    private float zCoordinate;
 
     void OnMouseDown() {
-        mZCoord = Camera.main.WorldToScreenPoint(gameObject.transform.position).z;
-        mOffset = gameObject.transform.position - GetMouseAsWorldPoint();
+        zCoordinate = Camera.main.WorldToScreenPoint(gameObject.transform.position).z;
+        distanceToMove = gameObject.transform.position - GetMouseAsWorldPointWithObjZCoordinate();
     }
 
-    private Vector3 GetMouseAsWorldPoint() {
-
-        // Pixel coordinates of mouse (x,y)
-        Vector3 mousePoint = Input.mousePosition;
-
-        // z coordinate of game object on screen
-        mousePoint.z = mZCoord;
-
-        // Convert it to world points
-        return Camera.main.ScreenToWorldPoint(mousePoint);
+    private Vector3 GetMouseAsWorldPointWithObjZCoordinate() {
+        Vector3 mousePos = Input.mousePosition;
+        mousePos.z = zCoordinate;
+        return Camera.main.ScreenToWorldPoint(mousePos);
     }
-
-
 
     void OnMouseDrag() {
-
-        transform.position = GetMouseAsWorldPoint() + mOffset;
-
+        transform.position = GetMouseAsWorldPointWithObjZCoordinate() + distanceToMove;
     }
-
 }
 
