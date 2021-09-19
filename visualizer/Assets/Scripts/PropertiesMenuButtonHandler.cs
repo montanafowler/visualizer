@@ -23,4 +23,9 @@ public class PropertiesMenuButtonHandler : MonoBehaviour
     	scaleRotateOptions.SetActive(false);
     	materialsOptions.SetActive(true);
     }
+
+    public void enableScaleRotateOptions() {
+    	scaleRotateOptions.SetActive(true);
+    	materialsOptions.SetActive(false);
+    }
 }

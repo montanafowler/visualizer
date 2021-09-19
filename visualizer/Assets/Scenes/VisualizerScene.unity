@@ -212,6 +212,7 @@ GameObject:
   m_Component:
   - component: {fileID: 21651207}
   - component: {fileID: 21651206}
+  - component: {fileID: 21651208}
   m_Layer: 0
   m_Name: PropertiesMenuManager
   m_TagString: Untagged
@@ -245,6 +246,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &21651208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21651205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fad32990709894383a5454c67efb2005, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &42951889
 GameObject:
   m_ObjectHideFlags: 0
@@ -656,7 +669,7 @@ GameObject:
   - component: {fileID: 102335767}
   - component: {fileID: 102335768}
   m_Layer: 0
-  m_Name: ZScaleSlider
+  m_Name: ZRotateSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1965,13 +1978,25 @@ MonoBehaviour:
   m_FillRect: {fileID: 51883745}
   m_HandleRect: {fileID: 1940561850}
   m_Direction: 0
-  m_MinValue: 100
+  m_MinValue: 50
   m_MaxValue: 400
   m_WholeNumbers: 0
   m_Value: 200
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 21651208}
+        m_TargetAssemblyTypeName: ScaleObject, Assembly-CSharp
+        m_MethodName: sliderChanged
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &724616055
 GameObject:
   m_ObjectHideFlags: 0
@@ -2092,13 +2117,25 @@ MonoBehaviour:
   m_FillRect: {fileID: 585114330}
   m_HandleRect: {fileID: 699873012}
   m_Direction: 0
-  m_MinValue: 100
+  m_MinValue: 50
   m_MaxValue: 400
   m_WholeNumbers: 0
   m_Value: 200
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 21651208}
+        m_TargetAssemblyTypeName: ScaleObject, Assembly-CSharp
+        m_MethodName: sliderChanged
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &818530019
 GameObject:
   m_ObjectHideFlags: 0
@@ -2973,13 +3010,25 @@ MonoBehaviour:
   m_FillRect: {fileID: 949381815}
   m_HandleRect: {fileID: 1567552819}
   m_Direction: 0
-  m_MinValue: 100
+  m_MinValue: 50
   m_MaxValue: 400
   m_WholeNumbers: 0
   m_Value: 200
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 21651208}
+        m_TargetAssemblyTypeName: ScaleObject, Assembly-CSharp
+        m_MethodName: sliderChanged
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &930924837
 GameObject:
   m_ObjectHideFlags: 0
@@ -5514,7 +5563,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1739420174}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 21651206}
+        m_TargetAssemblyTypeName: PropertiesMenuButtonHandler, Assembly-CSharp
+        m_MethodName: enableScaleRotateOptions
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1739420174
 MonoBehaviour:
   m_ObjectHideFlags: 0
