@@ -202,6 +202,49 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6090131}
   m_CullTransparentMesh: 1
+--- !u!1 &21651205
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 21651207}
+  - component: {fileID: 21651206}
+  m_Layer: 0
+  m_Name: PropertiesMenuManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &21651206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21651205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a97f5d9031cb44ad93c571b4ae8437d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &21651207
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21651205}
+  m_LocalRotation: {x: -0, y: 0.0030794707, z: -0, w: 0.9999953}
+  m_LocalPosition: {x: 180, y: 550, z: 90}
+  m_LocalScale: {x: 200.00003, y: 200, z: 200.00003}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &42951889
 GameObject:
   m_ObjectHideFlags: 0
@@ -1052,7 +1095,7 @@ RectTransform:
   m_Children:
   - {fileID: 1193439359}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1149,7 +1192,7 @@ GameObject:
   - component: {fileID: 471719313}
   - component: {fileID: 471719314}
   m_Layer: 0
-  m_Name: XScaleSlider
+  m_Name: XRotateSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2168,7 +2211,6 @@ GameObject:
   - component: {fileID: 818694796}
   - component: {fileID: 818694795}
   - component: {fileID: 818694794}
-  - component: {fileID: 818694797}
   m_Layer: 5
   m_Name: CubeButton
   m_TagString: Untagged
@@ -2290,18 +2332,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 818694792}
   m_CullTransparentMesh: 1
---- !u!114 &818694797
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 818694792}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef54aa5b0f15e49118afb6bdf36bfecf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &824710570
 GameObject:
   m_ObjectHideFlags: 0
@@ -3498,7 +3528,7 @@ Transform:
   m_LocalScale: {x: 200.00002, y: 200, z: 200.00002}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1172337204
 GameObject:
@@ -4420,7 +4450,6 @@ GameObject:
   - component: {fileID: 1545894864}
   - component: {fileID: 1545894863}
   - component: {fileID: 1545894862}
-  - component: {fileID: 1545894865}
   m_Layer: 5
   m_Name: SphereButton
   m_TagString: Untagged
@@ -4542,18 +4571,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1545894860}
   m_CullTransparentMesh: 1
---- !u!114 &1545894865
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1545894860}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef54aa5b0f15e49118afb6bdf36bfecf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1546555031
 GameObject:
   m_ObjectHideFlags: 0
@@ -4715,7 +4732,7 @@ GameObject:
   - component: {fileID: 1605502769}
   - component: {fileID: 1605502770}
   m_Layer: 0
-  m_Name: YScaleSlider
+  m_Name: YRotateSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5205,7 +5222,7 @@ Transform:
   m_LocalScale: {x: 150, y: 150, z: 150}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: -12.45, y: -12.907, z: 1.301}
 --- !u!114 &1708384057
 MonoBehaviour:
@@ -5636,7 +5653,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1792715196
 GameObject:
@@ -5901,7 +5918,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1800129607}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 21651206}
+        m_TargetAssemblyTypeName: PropertiesMenuButtonHandler, Assembly-CSharp
+        m_MethodName: enableMaterialsOptions
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1800129607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6126,7 +6155,7 @@ RectTransform:
   m_Children:
   - {fileID: 1792715197}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -6377,7 +6406,7 @@ Transform:
   m_LocalScale: {x: 200, y: 200, z: 200}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0.353, z: 0}
 --- !u!114 &1909714020
 MonoBehaviour:

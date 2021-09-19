@@ -7,10 +7,7 @@ public class ObjectLibraryButtonHandler : MonoBehaviour
 {
 	private GameObject cube;
 	private GameObject cylinder;
-	private Vector3 cylinderScale;
 	private GameObject sphere;
-	private Vector3 sphereScale;
-	private bool started = false;
 
 	void Start() {
 		// save references to the basic primitives
