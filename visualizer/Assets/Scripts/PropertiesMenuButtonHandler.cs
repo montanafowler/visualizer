@@ -4,58 +4,25 @@ using UnityEngine;
 
 public class PropertiesMenuButtonHandler : MonoBehaviour
 {
-    private GameObject scaleRotateOptions;
-	private GameObject materialsOptions;
-	private GameObject cameraOptions;
-	private GameObject lightingOptions;
+	private Dictionary<string, GameObject> optionsSets = new Dictionary<string, GameObject>();
 
     void Start()
     {
-        scaleRotateOptions = GameObject.Find("ScaleRotateOptions");
-		materialsOptions = GameObject.Find("MaterialsOptions");
-		cameraOptions = GameObject.Find("CameraOptions");
-		lightingOptions = GameObject.Find("LightingOptions");
-		if(materialsOptions)
-			materialsOptions.SetActive(false);
-		if(cameraOptions)
-			cameraOptions.SetActive(false);
-		if(lightingOptions)
-			lightingOptions.SetActive(false);
+        optionsSets["SCALE-ROTATE"] = GameObject.Find("ScaleRotateOptions");
+		optionsSets["MATERIALS"] = GameObject.Find("MaterialsOptions");
+		optionsSets["CAMERA"] = GameObject.Find("CameraOptions");
+		optionsSets["LIGHTING"] = GameObject.Find("LightingOptions");
+		enableOptions("SCALE-ROTATE");
     }
 
-    /** show the materials options */
-    public void enableMaterialsOptions() 
+    public void enableOptions(string optionsType) 
     {
-    	scaleRotateOptions.SetActive(false);
-    	materialsOptions.SetActive(true);
-    	cameraOptions.SetActive(false);
-    	lightingOptions.SetActive(false);
-    }
-
-    /** show the scale/rotate options */
-    public void enableScaleRotateOptions() 
-    {
-    	scaleRotateOptions.SetActive(true);
-    	materialsOptions.SetActive(false);
-    	cameraOptions.SetActive(false);
-    	lightingOptions.SetActive(false);
-    }
-
-    /** show the camera options */
-    public void enableCameraOptions() 
-    {
-    	scaleRotateOptions.SetActive(false);
-    	materialsOptions.SetActive(false);
-    	cameraOptions.SetActive(true);
-    	lightingOptions.SetActive(false);
-    }
-
-    /** show the lighting options */
-    public void enableLightingOptions() 
-    {
-    	scaleRotateOptions.SetActive(false);
-    	materialsOptions.SetActive(false);
-    	cameraOptions.SetActive(false);
-    	lightingOptions.SetActive(true);
+    	foreach(KeyValuePair<string, GameObject> optionsSet in optionsSets)
+		{
+		    if(optionsSet.Key == optionsType)
+		    	optionsSet.Value.SetActive(true);
+		    else
+		    	optionsSet.Value.SetActive(false);
+		}
     }
 }

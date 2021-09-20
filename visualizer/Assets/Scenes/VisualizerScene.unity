@@ -4753,14 +4753,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 21651206}
         m_TargetAssemblyTypeName: PropertiesMenuButtonHandler, Assembly-CSharp
-        m_MethodName: enableLightingOptions
-        m_Mode: 1
+        m_MethodName: enableOptions
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: LIGHTING
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &867556210
@@ -8886,14 +8886,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 21651206}
         m_TargetAssemblyTypeName: PropertiesMenuButtonHandler, Assembly-CSharp
-        m_MethodName: enableScaleRotateOptions
-        m_Mode: 1
+        m_MethodName: enableOptions
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: SCALE-ROTATE
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1739420174
@@ -9302,14 +9302,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 21651206}
         m_TargetAssemblyTypeName: PropertiesMenuButtonHandler, Assembly-CSharp
-        m_MethodName: enableMaterialsOptions
-        m_Mode: 1
+        m_MethodName: enableOptions
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: MATERIALS
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1800129607
@@ -10468,14 +10468,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 21651206}
         m_TargetAssemblyTypeName: PropertiesMenuButtonHandler, Assembly-CSharp
-        m_MethodName: enableCameraOptions
-        m_Mode: 1
+        m_MethodName: enableOptions
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: CAMERA
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2008698062
