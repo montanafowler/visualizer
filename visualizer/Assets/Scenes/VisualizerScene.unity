@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18321826, g: 0.22886854, b: 0.3064409, a: 1}
+  m_IndirectSpecularColor: {r: 0.18142858, g: 0.22310898, b: 0.28451657, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -295,6 +295,7 @@ GameObject:
   - component: {fileID: 21651209}
   - component: {fileID: 21651210}
   - component: {fileID: 21651211}
+  - component: {fileID: 21651212}
   m_Layer: 0
   m_Name: PropertiesMenuManager
   m_TagString: Untagged
@@ -381,6 +382,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c8a4b556cf1b54c96812275636d82ca2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &21651212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21651205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0786c2545c3e4820bf811611047cda0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &32597621
@@ -1074,16 +1087,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 21651210}
-        m_TargetAssemblyTypeName: ChangeMaterial, Assembly-CSharp
-        m_MethodName: makeDiffuse
-        m_Mode: 1
+      - m_Target: {fileID: 21651212}
+        m_TargetAssemblyTypeName: ChangeLighting, Assembly-CSharp
+        m_MethodName: changeLighting
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: RIGHT
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &98986114
@@ -1904,16 +1917,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 21651210}
-        m_TargetAssemblyTypeName: ChangeMaterial, Assembly-CSharp
-        m_MethodName: makeDiffuse
-        m_Mode: 1
+      - m_Target: {fileID: 21651212}
+        m_TargetAssemblyTypeName: ChangeLighting, Assembly-CSharp
+        m_MethodName: changeLighting
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: PINK
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &352569235
@@ -2428,16 +2441,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 21651210}
-        m_TargetAssemblyTypeName: ChangeMaterial, Assembly-CSharp
-        m_MethodName: makeDiffuse
-        m_Mode: 1
+      - m_Target: {fileID: 21651212}
+        m_TargetAssemblyTypeName: ChangeLighting, Assembly-CSharp
+        m_MethodName: changeLighting
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: BLUE
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &420178879
@@ -3868,16 +3881,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 21651210}
-        m_TargetAssemblyTypeName: ChangeMaterial, Assembly-CSharp
-        m_MethodName: makeDiffuse
-        m_Mode: 1
+      - m_Target: {fileID: 21651212}
+        m_TargetAssemblyTypeName: ChangeLighting, Assembly-CSharp
+        m_MethodName: changeLighting
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: GREEN
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &787793879
@@ -5357,7 +5370,7 @@ GameObject:
   - component: {fileID: 990102028}
   - component: {fileID: 990102027}
   m_Layer: 0
-  m_Name: DirectionalLight2
+  m_Name: RightLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6830,16 +6843,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 21651210}
-        m_TargetAssemblyTypeName: ChangeMaterial, Assembly-CSharp
-        m_MethodName: makeDiffuse
-        m_Mode: 1
+      - m_Target: {fileID: 21651212}
+        m_TargetAssemblyTypeName: ChangeLighting, Assembly-CSharp
+        m_MethodName: changeLighting
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: ORANGE
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1228694507
@@ -9481,7 +9494,7 @@ GameObject:
   - component: {fileID: 1842981993}
   - component: {fileID: 1842981992}
   m_Layer: 0
-  m_Name: DirectionalLight
+  m_Name: LeftLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10719,16 +10732,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 21651210}
-        m_TargetAssemblyTypeName: ChangeMaterial, Assembly-CSharp
-        m_MethodName: makeDiffuse
-        m_Mode: 1
+      - m_Target: {fileID: 21651212}
+        m_TargetAssemblyTypeName: ChangeLighting, Assembly-CSharp
+        m_MethodName: changeLighting
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: LEFT
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2033898901

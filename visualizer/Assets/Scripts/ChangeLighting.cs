@@ -26,8 +26,9 @@ public class ChangeLighting : MonoBehaviour
 		{
 		    if(light.Key == lightType)
 		    	light.Value.SetActive(true);
-		    else
+		    else if(light.Value)
 		    	light.Value.SetActive(false);
+            Debug.Log(light.Value);
 		}
     }
 }
