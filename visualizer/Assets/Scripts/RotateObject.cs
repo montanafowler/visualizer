@@ -18,14 +18,14 @@ public class RotateObject : MonoBehaviour
     	
     	// if the cube is active, rotate it
     	if(cube)
-    		cube.transform.Rotate(xSlider.value, ySlider.value, zSlider.value, Space.Self);
+    		cube.transform.rotation = Quaternion.Euler(xSlider.value, ySlider.value, zSlider.value);
     	
     	// if the sphere is active, rotate it
     	if(sphere)
-    		sphere.transform.Rotate(xSlider.value, ySlider.value, zSlider.value, Space.Self);
+    		sphere.transform.rotation = Quaternion.Euler(xSlider.value, ySlider.value, zSlider.value);
 
     	// if the cylinder is active, rotate it
     	if(cylinder)
-    		cylinder.transform.Rotate(xSlider.value, ySlider.value, zSlider.value, Space.Self);
+    		cylinder.transform.rotation = Quaternion.Euler(xSlider.value, ySlider.value, zSlider.value);
     }
 }
