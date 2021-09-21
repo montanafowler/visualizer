@@ -1,6 +1,6 @@
 # Montana's Visualizer
 
-put image here
+[](https://raw.githubusercontent.com/montanafowler/visualizer/main/start_screen.jpg)
 
 [video of the visualizer](https://drive.google.com/file/d/1heyGv4vw9FsjLFrZe9nAr4Z_AOmP6jVe/view?usp=sharing)
 
