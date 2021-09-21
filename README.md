@@ -2,6 +2,8 @@
 
 put image here
 
+[video of the visualizer](https://drive.google.com/file/d/1heyGv4vw9FsjLFrZe9nAr4Z_AOmP6jVe/view?usp=sharing)
+
 ## Instructions:
 
 1. Download the zip file for either the ios or windows build (see above).
