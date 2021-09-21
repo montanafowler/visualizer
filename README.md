@@ -4,7 +4,9 @@ put image here
 
 ## Instructions:
 
-put instructions here
+1. Download the zip file for either the ios or windows build (see above).
+2. Unzip it and launch the application
+3. Shapes are changed at the bottom, and the different menus will give you the ways you can modify the model.
 
 ## Documentation
 
