@@ -4342,14 +4342,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1057694192}
         m_TargetAssemblyTypeName: ObjectLibraryButtonHandler, Assembly-CSharp
-        m_MethodName: enableCube
-        m_Mode: 1
+        m_MethodName: activateShape
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: CUBE
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &818694795
@@ -7714,14 +7714,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1057694192}
         m_TargetAssemblyTypeName: ObjectLibraryButtonHandler, Assembly-CSharp
-        m_MethodName: enableSphere
-        m_Mode: 1
+        m_MethodName: activateShape
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: SPHERE
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1545894863
@@ -11018,14 +11018,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1057694192}
         m_TargetAssemblyTypeName: ObjectLibraryButtonHandler, Assembly-CSharp
-        m_MethodName: enableCylinder
-        m_Mode: 1
+        m_MethodName: activateShape
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: CYLINDER
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2096735207
